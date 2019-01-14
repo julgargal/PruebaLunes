@@ -1,0 +1,14 @@
+{% extends 'banner.html' %}
+
+{% block titulo %} Inicio {% endblock %}
+
+
+{% block contenido %}
+    {% if user.is_authenticated %}
+        <p>!!! Welcome {{ user.username }} !!!</p>
+    {% endif %}
+
+	<p>
+    AQUI EL CONTENIDO DE LA PAGINA DE INICIO
+	</p>
+{% endblock %}
