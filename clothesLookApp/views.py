@@ -13,6 +13,8 @@ from django.conf import settings
 # Create your views here.
 
 #PAGINA DE INICIO
+#Esta es la prueba
+
 def inicio(request):
     return render(request,'inicio.html')
 
